@@ -31,7 +31,7 @@ export default {
   name: "HelloWorld",
   data() {
     return {
-      total: 0,
+      total: '',
     };
   },
   methods: {
@@ -43,7 +43,7 @@ export default {
       return (this.total += x);
     },
     clear: function () {
-      return (this.total = 0);
+      return (this.total = '');
     },
     calculation: function () {
       var equal = this.total;
